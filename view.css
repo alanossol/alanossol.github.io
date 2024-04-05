@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    height: 100%;
+
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    display: flex;
+  justify-content: center;
+}
+
+.background {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+20,a0d8ef+62,ffffff+100 */
+background: #feffff; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #feffff 0%, #ddf1f9 20%, #a0d8ef 62%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #feffff 0%,#ddf1f9 20%,#a0d8ef 62%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #feffff 0%,#ddf1f9 20%,#a0d8ef 62%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.center {
+    margin: auto;
+    width: 80vw;
+    padding: 0px;
+    /*min-width: 500px;*/
+}
+
+.boxMain{
+    background-color:rgba(240, 248, 255, 75%);
+    padding: 0%;
+    border-radius: 33px 33px 33px 33px;
+    -webkit-border-radius: 33px 33px 33px 33px;
+    -moz-border-radius: 33px 33px 33px 33px;
+    border: 3px solid #000000;
+}
+/*
+@media screen and (min-width: 100) {
+    .center {
+        margin: auto;
+        width: 55vw;
+        padding: 0px;
+        min-width: 500px;
+    }
+    
+    .boxMain{
+        background-color:rgba(240, 248, 255, 75%);
+        padding: 3%;
+        border-radius: 33px 33px 33px 33px;
+        -webkit-border-radius: 33px 33px 33px 33px;
+        -moz-border-radius: 33px 33px 33px 33px;
+        border: 3px solid #000000;
+    }
+    
+    .gridPrincipalParent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) 0.2fr;
+        grid-template-rows: repeat(2, 1fr) 0.4fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    
+    .gridPrincipalChildDiv1 { grid-area: 1 / 1 / 3 / 5;}
+    .gridPrincipalChildDiv2 { grid-area: 4 / 2 / 5 / 4;}
+    
+}
+*/
+
+
+.number{
+    font-size: 9.5vw;
+    text-align: end;
+    margin-right: 5%;
+    
+}
+
+h1{
+    font-size: 9.5vw;
+    
+    background: rgb(255,154,0);
+background: -moz-linear-gradient(180deg, rgba(255,154,0,1) 0%, rgba(229,87,146,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(255,154,0,1) 0%, rgba(229,87,146,1) 100%);
+background: linear-gradient(180deg, rgba(255,154,0,1) 0%, rgba(229,87,146,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff9a00",endColorstr="#e55792",GradientType=1);
+    color: white;
+    text-align: center;
+}
+
+h3{
+    font-size: 4vw;
+    margin-left: 5%;
+}
