@@ -88,16 +88,29 @@ h1{
 }
 
 h3{
+    color: rgb(0, 0, 0);
+    font-size: 4vw;
+    margin-left: 5%;
+    display: block;
+    text-align: center;
+}
+a>button>h3{
+    color: rgb(255, 255, 255);
     font-size: 4vw;
     margin-left: 5%;
     display: inline;
+    text-align: center;
 }
-button{
+a>button{
     color: #ffffff;
     padding-right: 15pt;
     background-color: #0A0;
 }
-button:hover{
+a>button:hover{
+    color: #000;
+    background-color: #FFF;
+}
+a>button:hover>h3{
     color: #000;
     background-color: #FFF;
 }
