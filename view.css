@@ -18,6 +18,7 @@ html, body {
     background: -webkit-linear-gradient(-45deg, #feffff 0%,#ddf1f9 20%,#a0d8ef 62%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg, #feffff 0%,#ddf1f9 20%,#a0d8ef 62%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-attachment: fixed;
 }
 .center {
     margin: auto;
