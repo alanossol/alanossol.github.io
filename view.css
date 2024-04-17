@@ -11,6 +11,8 @@ html, body {
     justify-content: center;
 }
 
+
+
 .background {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+20,a0d8ef+62,ffffff+100 */
     background: #feffff; /* Old browsers */
@@ -18,8 +20,9 @@ html, body {
     background: -webkit-linear-gradient(-45deg, #feffff 0%,#ddf1f9 20%,#a0d8ef 62%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg, #feffff 0%,#ddf1f9 20%,#a0d8ef 62%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    background-attachment: fixed;
+    background-attachment: fixed; 
 }
+
 .center {
     margin: auto;
     width: 80vw;
@@ -28,7 +31,7 @@ html, body {
 }
 
 .boxMain{
-    background-color:rgba(240, 248, 255, 75%);
+    background-color:rgb(240, 248, 255);
     padding: 0%;
     border-radius: 33px 33px 33px 33px;
     -webkit-border-radius: 33px 33px 33px 33px;
@@ -75,10 +78,29 @@ html, body {
     
 }
 
+nav{
+    /* float: inherit; */
+    /* z-index: 1000;  */
+    background-color: #222;
+    padding:  1vw 0vw 1vw 0vw;
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    height: auto;
+    margin-top: 0%;
+    
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
 h1{
     padding-top: 6vw;
     font-size: 9.5vw;
-    
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0.67em 0;
     background: rgb(255,154,0);
     background: -moz-linear-gradient(180deg, rgba(255,154,0,1) 0%, rgba(229,87,146,1) 100%);
     background: -webkit-linear-gradient(180deg, rgba(255,154,0,1) 0%, rgba(229,87,146,1) 100%);
@@ -89,29 +111,33 @@ h1{
 }
 
 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
     color: rgb(0, 0, 0);
     font-size: 4vw;
     margin-left: 5%;
     display: block;
     text-align: center;
 }
-a>button>h3{
+nav>a>h3{
     color: rgb(255, 255, 255);
-    font-size: 4vw;
-    margin-left: 5%;
+    padding: 0.3vw;
+    margin: 0%;
+    font-size: 4.5vw;
+}
+nav>a{
+    background-color: #090;
+    font-size: 4.5vw;
+    padding: 0pt 5pt  0pt 5pt ;
+    border-radius: 1vw;
+    text-decoration: none;
     display: inline;
     text-align: center;
 }
-a>button{
-    color: #ffffff;
-    padding-right: 15pt;
-    background-color: #0A0;
-}
-a>button:hover{
+nav>a>h3:hover{
     color: #000;
+}
+nav>a:hover{
     background-color: #FFF;
 }
-a>button:hover>h3{
-    color: #000;
-    background-color: #FFF;
-}
+
