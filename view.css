@@ -73,6 +73,7 @@ html, body {
 
 .number{
     font-size: 9.5vw;
+    font-weight: bold;
     text-align: end;
     margin-right: 5%;
     
@@ -126,7 +127,7 @@ nav>a>h3{
     font-size: 4.5vw;
 }
 nav>a{
-    background-color: #090;
+    background-color: #080;
     font-size: 4.5vw;
     padding: 0pt 5pt  0pt 5pt ;
     border-radius: 1vw;
@@ -134,10 +135,14 @@ nav>a{
     display: inline;
     text-align: center;
 }
-nav>a>h3:hover{
-    color: #000;
-}
 nav>a:hover{
     background-color: #FFF;
 }
+nav>a:hover h3 { 
+    color: #000;
+}
 
+i{
+    color: #080;
+    font-weight: 100;
+}
